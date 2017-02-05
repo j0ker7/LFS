@@ -1,3 +1,5 @@
+export EDITOR=vim
+
 PS1="\n\[$(tput setaf 6)\][ \[$(tput setaf 7)\]\u \[$(tput setaf 6)\]] \[$(tput setaf 6)\][ \[$(tput setaf 5)\]\w \[$(tput setaf 6)\]]\n\[$(tput setaf 3)\]>>> \[$(tput sgr0)\]"
 
 alias bb='sudo -H -u pkgmk fakeroot pkgmk -d'
@@ -66,6 +68,11 @@ alias dfcz='dfc -fp /dev -q name'
 alias pg='while true; do ping google.com; sleep 2; done'
 alias ls='ls --color=auto'
 alias oo='sleep 2 && xset dpms force off'
+
+## git
+alias gpull='for g in $(ls ~/MyGit/); do echo "### ${g} ###" && (cd ~/MyGit/$g && git pull); done'
+alias gstat='for g in $(ls ~/MyGit/); do echo "### ${g} ###" && (cd ~/MyGit/$g && git status); done'
+alias gpush='for g in $(ls ~/MyGit/); do echo "### ${g} ###" && (cd ~/MyGit/$g && git push); done'
 
 neofetch
 dfcz
