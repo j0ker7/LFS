@@ -1,0 +1,32 @@
+*scrollBar: false
+*geometry: 90x28
+!*transparent: true
+!*shading: 20
+!*font: xft:Terminus:pixelsize=12
+*font: xft:Terminess Powerline:pixelsize=12
+!*font: -xos4-terminus2-medium-r-normal--12-120-72-72-c-60-iso8859-1
+!*boldFont: -xos4-terminus2-medium-r-normal--12-120-72-72-c-60-iso8859-1
+*boldFont: xft:Terminess Powerline:bold:pixelsize=12
+
+urxvt*depth: 32
+urxvt*background: rgba:0000/0000/0200/c800
+
+*background:#1c1c1c
+*foreground:#676c76
+
+*color0:	#5c616c
+*color8:	#5c616c
+*color1:	#e1485a
+*color9:	#e1485a
+*color2:	#35ac54
+*color10:	#35ac54
+*color3:	#ef654a
+*color11:	#ef654a
+*color4:	#5294e2
+*color12:	#5294e2
+*color5:	#c81a71
+*color13:	#c81a71
+*color6:	#1ba39c
+*color14:	#1ba39c
+*color7:	#353945
+*color15:	#353945

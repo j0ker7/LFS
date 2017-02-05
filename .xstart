@@ -1,0 +1,7 @@
+/usr/libexec/polkit-gnome-authentication-agent-1 &
+compton -c -r 5 &
+
+dropbox &
+urxvt &
+
+exec dwm

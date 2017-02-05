@@ -1,0 +1,16 @@
+nitrogen --restore &
+/usr/libexec/polkit-gnome-authentication-agent-1 &
+compton -c -r 5 &
+
+sleep 2 && urxvt -e nbwmon &
+sleep 2 && urxvt -e htop &
+sleep 3 && urxvt &
+
+dropbox &
+uget-gtk &
+transmission-gtk -m &
+clipit &
+hexchat --minimize=2 &
+
+sudo sh ~/script/wifi start &
+sh ~/script/dwm-bar &
