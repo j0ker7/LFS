@@ -74,5 +74,9 @@ alias gpull='for g in $(ls ~/MyGit/); do echo "### ${g} ###" && (cd ~/MyGit/$g &
 alias gstat='for g in $(ls ~/MyGit/); do echo "### ${g} ###" && (cd ~/MyGit/$g && git status); done'
 alias gpush='for g in $(ls ~/MyGit/); do echo "### ${g} ###" && (cd ~/MyGit/$g && git push); done'
 
+
+alias psync='for ports in lfs-ports lfs-ports-xorg; do (cd /usr/ports/$ports && sudo git pull); done'
+alias gg='git add . && git commit -m $1 && git push'
+
 neofetch
 dfcz
